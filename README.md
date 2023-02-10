@@ -19,7 +19,7 @@ pip install moviepy
 ```
 
 # file encryption
-шифрование файлов
+шифрование файлов с текстом симметричным алгоритмом блочного шифрования AES
 
 ### Технологии:
 - Python 3.7
@@ -36,4 +36,24 @@ source venv/bin/activate
 ```
 pip install --upgrade pip
 pip install pyAesCrypt
+```
+
+# file encryption pdf files
+шифрование PDF файлов
+
+### Технологии:
+- Python 3.7
+- PyPDF2
+
+### Запуск:
+установить и запустить виртуальное окружение:
+```
+python3 -m venv venv
+source venv/bin/activate
+```
+
+установить необходимую библиотеку:
+```
+pip install --upgrade pip
+pip install PyPDF2
 ```
