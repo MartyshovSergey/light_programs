@@ -10,5 +10,7 @@
 python3 -m venv venv
 
 установить необходимую библиотеку:
+```
 pip install --upgrade pip
 pip install moviepy
+```
